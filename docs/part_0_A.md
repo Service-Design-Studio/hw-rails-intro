@@ -3,7 +3,7 @@
 
  The actual RottenPotatoes starter app you will use is in another
  public repo:
- [saasbook/rottenpotatoes-rails-intro](https://github.com/saasbook/rottenpotatoes-rails-intro).
+ [Service-Design-Studio/rottenpotatoes-rails-intro](https://github.com/Service-Design-Studio/rottenpotatoes-rails-intro).
  On that repo's GitHub page, click "Use This Template", which will
  create a new copy of the repo in your GitHub account.  **Do not fork
  the repo** since we don't intend to accept pull requests from student assignments!
@@ -66,7 +66,7 @@ $ bin/rake db:seed
 </details>
 <br />
 
-At this point you should be able to [run the app locally](https://github.com/saasbook/hw-hello-rails/blob/master/Codio.md) and visit
+At this point you should be able to [run the app locally](https://github.com/Service-Design-Studio/hw-hello-rails/blob/master/Codio.md) and visit
 it from a browser to make sure it's working before you go on.
 
 

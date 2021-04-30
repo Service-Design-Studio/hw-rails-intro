@@ -85,13 +85,13 @@ As before, if a user unchecks all checkboxes, it means "display all ratings."
 
 ### When you're done with this part
 
-Deploy to Heroku by following the same process as before-- and as
+Deploy to GAE by following the same process as before-- and as
 before, make sure you have run `git add` and committed all new or
 changed files that are part of your project:
 
 ```sh
 $ git commit -am "part 3 complete"
-$ git push heroku master
+$ gcloud app deploy
 ```
 
 We also **strongly recommend** that you push your code to your remote

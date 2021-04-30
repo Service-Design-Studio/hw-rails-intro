@@ -146,17 +146,17 @@ controller and do the computation there instead.  And if the computation
 is anything more than trivial, it probably belongs in a model, not in
 the controller.
 
-You'll submit this part after you deploy on Heroku and when you supply your Heroku deployment URL in part 3. But you can commit all the changes you have made so far to git, deploy them to Heroku and check that they work on Heroku before moving on to the next section:
+You'll submit this part after you deploy on Google Cloud App Engine and when you supply your deployment URL in part 3. But you can commit all the changes you have made so far to git, deploy them to GAE and check that they work on GAE before moving on to the next section:
 
 ```sh
 $ git commit -am "part 1 complete"
-$ git push heroku master
+$ gcloud app deploy
 ```
 
 **NOTE!** Be sure that you have used `git add` to add all the new
 files you've created!  If in doubt, use `git status` to show which
 files Git thinks it does not know about.  A common pitfall is
 forgetting to add some files, and then when the app is deployed to
-Heroku, it fails because some files are missing.
+GAE, it fails because some files are missing.
 
 Next: [Part 2: Sort the list of movies by title or release date](part_2.md)
