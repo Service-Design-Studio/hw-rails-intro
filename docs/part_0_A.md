@@ -70,4 +70,4 @@ At this point you should be able to [run the app locally](https://github.com/Ser
 it from a browser to make sure it's working before you go on.
 
 
-Next: [Part 0 (B): Preparation: deploy to Heroku](part_0_B.md)
+Next: [Part 0 (B): Preparation: deploy to Google Cloud](part_0_B.md)

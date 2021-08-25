@@ -4,7 +4,7 @@ Modifying RottenPotatoes
 # Rails Intro: add features to RottenPotatoes
 
 In this homework you will add a feature to an existing simple Rails app
-and deploy the result publicly on the Google App Engine hosting service. We
+and deploy the result publicly on the Google Cloud. We
 will run live integration tests against your deployed version. 
 
 General advice:  This homework involves modifying RottenPotatoes in
@@ -25,16 +25,16 @@ changed in each file since your last “good” commit.
 
 # How to submit when you're all done
 
-Deploying your finished app to Google App Engine by the homework deadline is part
+Deploying your finished app to Google Cloud Run by the homework deadline is part
 of the grading process. Even if you have code checked in that works
-properly, you still need to also deploy it to Google App Engine to get full
+properly, you still need to also deploy it to Google Cloud Run to get full
 credit. 
 
-Once you're confident the functionality works correctly on Google Cloud App Engine,
+Once you're confident the functionality works correctly on Google Cloud Run,
 submit the 
-URI of your deployed GAE app in a text file with no other
+URI of your deployed Google Cloud Run app in a text file with no other
 contents. 
 
 **Please be careful** to use **http** and not **https**, that is, 
-submit `http://your-app.appspot.com` **and NOT**
-`https://your-app.appspot.com`. 
+submit `http://your-app.as.a.run.app` **and NOT**
+`https://your-app.as.a.runapp`. 

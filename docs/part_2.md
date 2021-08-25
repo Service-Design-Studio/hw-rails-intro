@@ -107,13 +107,13 @@ types of changes should be "remembered".
 
 ### Submission
 
-You'll submit the code for this part after you deploy on GAE and when you supply your GAE deployment URL in part 3.
+You'll submit the code for this part after you deploy on Cloud Run and when you supply your Cloud Run deployment URL in part 3.
 
-For now, commit all the changes you have made so far, and deploy them to check that they work on Heroku before moving on to the next section:
+For now, commit all the changes you have made so far, and deploy them to check that they work on Cloud Run before moving on to the next section:
 
 ```sh
 git commit -am "part 2 complete"
-gcloud app deploy
+gcloud builds submit
 ```
 
 Next: [Part 3: Remember the sorting and filtering settings](part_3.md)

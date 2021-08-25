@@ -85,20 +85,15 @@ As before, if a user unchecks all checkboxes, it means "display all ratings."
 
 ### When you're done with this part
 
-Deploy to GAE by following the same process as before-- and as
-before, make sure you have run `git add` and committed all new or
-changed files that are part of your project:
+Deploy to Cloud Run by following the same process as before-- and as before, make sure you have run `git add` and committed all new or changed files that are part of your project:
 
 ```sh
 $ git commit -am "part 3 complete"
-$ gcloud app deploy
+$ gcloud builds submit
 ```
 
-We also **strongly recommend** that you push your code to your remote
-repository to permanently save your work somewhere other than your
-local development environment (whether that's Codio or your own computer):
+We also **strongly recommend** that you push your code to your remote repository to permanently save your work somewhere other than your local development environment (whether that's Codio or your own computer):
 
 ```sh
 $ git push origin master
 ```
-
